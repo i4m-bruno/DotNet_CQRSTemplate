@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TemplateDotNet.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TemplateDotNet.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TemplateDotNet.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TemplateDotNet.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TemplateDotNet.Shared/TemplateDotNet.Shared.csproj",
+      "msbuildProject": "../TemplateDotNet.Shared/TemplateDotNet.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TemplateDotNet.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ossBr\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\PROJETOS\\DOT_NET\\DotNetCQRSTemplate\\TemplateDotNet.Domain\\TemplateDotNet.Domain.csproj",
+      "projectName": "TemplateDotNet.Domain",
+      "projectPath": "D:\\PROJETOS\\DOT_NET\\DotNetCQRSTemplate\\TemplateDotNet.Domain\\TemplateDotNet.Domain.csproj",
+      "packagesPath": "C:\\Users\\ossBr\\.nuget\\packages\\",
+      "outputPath": "D:\\PROJETOS\\DOT_NET\\DotNetCQRSTemplate\\TemplateDotNet.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ossBr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\PROJETOS\\DOT_NET\\DotNetCQRSTemplate\\TemplateDotNet.Shared\\TemplateDotNet.Shared.csproj": {
+              "projectPath": "D:\\PROJETOS\\DOT_NET\\DotNetCQRSTemplate\\TemplateDotNet.Shared\\TemplateDotNet.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TemplateDotNet.Shared/1.0.0": {
+        "runtime": {
+          "TemplateDotNet.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TemplateDotNet.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

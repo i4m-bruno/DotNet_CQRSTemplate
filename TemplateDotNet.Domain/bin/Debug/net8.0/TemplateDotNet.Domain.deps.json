@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TemplateDotNet.Domain/1.0.0": {
+        "dependencies": {
+          "TemplateDotNet.Shared": "1.0.0"
+        },
+        "runtime": {
+          "TemplateDotNet.Domain.dll": {}
+        }
+      },
+      "TemplateDotNet.Shared/1.0.0": {
+        "runtime": {
+          "TemplateDotNet.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TemplateDotNet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TemplateDotNet.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
